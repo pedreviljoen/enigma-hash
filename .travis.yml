@@ -1,0 +1,12 @@
+git:
+  depth: 5
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: npm
+  email: pedre87@gmail.com
+  on:
+    branch: master
+  api_key:
+    secure: BNNsM14/tRuxbZW50odbcWe4szf1ZTb6e/IVhdTKyCPrfNpwxUS3/lKy1+YehrBEx7u1SvILuOiexO5sve8bnexJQXqNkAMv93xsUyYNgjpQVF0nzO6XXRMSyfq0Qkl6K1jaO7DxB/LysLb0sXH2Rgr67/fbGV8zt5eVn7QZ4ggFiqNxDpCR6jEVG2XRL+fkm49hwOuqpAo3h1D9ooqpzhmNljGHb47pt9SDOS9Bw6HDPW75tUnRKNzcSE4Jt6pEQTRZfRtVQii24v06cAbdesHO7McUlgDzMMz0GVu0IEKRwTPggC/68IcOcKHU9BxBQ+R9E1Qv9L1mBxJwmegHTDhGSe9cBTA2BSfDhF5NNkGDz6iAKBcJJm12SSzGdJMDFWyJkjZK2Y8lO1WIHx3j6F7Q7ckeGW7rbgDyznOGZHqocXjZBUPuwWYPYpZ2RVJXdrWDA+hEr2bYw7Hh5uYPYMT9kWPIe8Tu5g6OSrRNd6tjrQ/lRpVxAosSh43R1yNqLDQmC0m2K6/DEAd6CuOsjhn+TKfKaOFvsDASzonVazDb2HE7ctlYTuBL1TtjB2ilVouGgwM8LRvM+rexJyaDOvmj8d2Eoups97WPx0U0upVxYoviy2MCdbPEv2oKG/MvX4oZxM1AEJdjfIwk9CwVHwcNA5AIUQB1pEH3IHCShJw=

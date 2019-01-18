@@ -1,5 +1,5 @@
 {
-  "name": "enigma",
+  "name": "enigma-hash",
   "version": "1.0.0",
   "description": "Demystifying the hashing of data",
   "main": "index.js",

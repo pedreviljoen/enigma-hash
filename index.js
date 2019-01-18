@@ -15,8 +15,6 @@ function hash(input = "", type = "", code = "") {
   return type ? "Algorithm not supported" : "Algorithm not provided"
 }
 
-console.log(hash("Hello World", "sha512", "hex"))
-
 module.exports = {
   hash
 }

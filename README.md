@@ -50,6 +50,14 @@ const hashValue = hash('Hello World', 'sha256', 'hex')
 // hash(input, algorithm, code)
 ```
 
+Hash with a key (Hmac) like below:
+
+```javascript
+const hashValue = hash('Hello World', 'sha256', 'hex', 'Some key')
+
+// hash(input, algorithm, code, key)
+```
+
 <table width="80%">
     <tr>
         <th>Parameter</th>
@@ -78,6 +86,13 @@ const hashValue = hash('Hello World', 'sha256', 'hex')
         <td><code>String</code></td>
         <td><code>hex / latin1 / base64</code></td>
         <td><code>hex</code></td>
+    </tr>
+    <tr>
+        <td><code>Key</code></td>
+        <td>Key used to encrypt data</td> 
+        <td><code>String</code></td>
+        <td><code>Any</code></td>
+        <td><code>No key</code></td>
     </tr>
 </table>
 

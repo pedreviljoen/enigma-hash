@@ -3,6 +3,9 @@ git:
 language: node_js
 node_js:
 - stable
+cache: 
+  directories:
+    - node_modules
 deploy:
   provider: npm
   email: pedre87@gmail.com

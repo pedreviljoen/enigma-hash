@@ -1,6 +1,6 @@
 {
   "name": "enigma-hash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Demystifying the hashing of data",
   "main": "index.js",
   "scripts": {

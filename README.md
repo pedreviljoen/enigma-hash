@@ -19,6 +19,7 @@
   - [Contents](#contents)
   - [Install](#install)
   - [Usage](#usage)
+  - [CLI Tool](#cli-tool)
   - [Contribute](#contribute)
   - [License](#license)
 
@@ -95,6 +96,20 @@ const hashValue = hash('Hello World', 'sha256', 'hex', 'Some key')
         <td><code>No key</code></td>
     </tr>
 </table>
+
+## CLI Tool
+
+Install with:
+
+```sh
+npm install -g enigma-hash
+```
+
+& simply run with the following:
+
+```sh
+enigma --algorithm sha256 --code hex --input <some string to hash>
+```
 
 ## Contribute
 

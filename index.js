@@ -2,7 +2,6 @@ const crypto = require("crypto")
 
 function hash(input = "", type = "", code = "", key) {
   const algorithms = ["sha256", "sha512"]
-
   const encoding = ["hex", "latin1", "base64"]
 
   if (algorithms.includes(type)) {

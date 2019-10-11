@@ -67,6 +67,8 @@ workflows:
                 - develop
                 - master
       - test:
+          requires:
+            - build
           filters:
             branches:
               only:
@@ -74,7 +76,6 @@ workflows:
                 - master
       - deploy:
           requires:
-            - build
             - test
           filters:
             branches:

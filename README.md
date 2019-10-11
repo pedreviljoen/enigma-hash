@@ -6,10 +6,11 @@
 
 [![Package version](https://img.shields.io/npm/v/enigma-hash.svg?style=flat-square)](https://npmjs.org/package/enigma-hash)
 [![Make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![License](https://img.shields.io/npm/l/enigma-hash.svg?style=flat-square)](https://github.com/pedreviljoen/enigma-hash/blob/master/LICENSE) 
+[![License](https://img.shields.io/npm/l/enigma-hash.svg?style=flat-square)](https://github.com/pedreviljoen/enigma-hash/blob/master/LICENSE)[![CircleCI](https://circleci.com/gh/pedreviljoen/enigma-hash.svg?style=svg)](https://circleci.com/gh/pedreviljoen/enigma-hash)
 [![npm downloads](https://img.shields.io/npm/dm/enigma-hash.svg?style=flat-square)](https://npmjs.org/package/enigma-hash)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/enigma-hash.svg)](https://greenkeeper.io/)
+[![CodeFactor](https://www.codefactor.io/repository/github/pedreviljoen/enigma-hash/badge)](https://www.codefactor.io/repository/github/pedreviljoen/enigma-hash)
 
 > Demystifying hashing, made simple and easy
 

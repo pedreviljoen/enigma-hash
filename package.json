@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest test",
-    "format": "prettier --no-semi --tab-width 2 --print-width 100 --write **/*.js"
+    "format": "prettier --no-semi --tab-width 2 --print-width 100 --write **/*.js",
+    "postversion": "git push && git push --tags"
   },
   "husky": {
     "hooks": {

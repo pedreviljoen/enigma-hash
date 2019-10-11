@@ -10,6 +10,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/enigma-hash.svg?style=flat-square)](https://npmjs.org/package/enigma-hash)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/enigma-hash.svg)](https://greenkeeper.io/)
+[![CodeFactor](https://www.codefactor.io/repository/github/pedreviljoen/enigma-hash/badge)](https://www.codefactor.io/repository/github/pedreviljoen/enigma-hash)
 
 > Demystifying hashing, made simple and easy
 

@@ -1,11 +1,11 @@
 {
   "name": "enigma-hash",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Demystifying the hashing of data",
   "main": "index.js",
   "scripts": {
     "test": "jest test",
-    "format": "prettier --no-semi --tab-width 2 --print-width 100 --write **/*.js",
+    "format": "prettier --tab-width 2 --print-width 100 --write **/*.js",
     "postversion": "git push && git push --tags"
   },
   "husky": {
@@ -33,7 +33,7 @@
   "devDependencies": {
     "husky": "3.0.0",
     "jest": "23.6.0",
-    "prettier": "1.15.3"
+    "prettier": "^1.18.2"
   },
   "publishConfig": {
     "access": "public"

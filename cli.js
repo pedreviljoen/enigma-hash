@@ -6,11 +6,11 @@ function run() {
   const opts = arguments.slice(2, arguments.length)
 
   try {
-    const inputVal = opts.slice(opts.indexOf("--input") + 1, opts.indexOf("--input") + 2)[0]
+    const inputVal = opts.slice(opts.indexOf("--data") + 1, opts.indexOf("--data") + 2)[0]
     const algorithmVal = opts.slice(
-      opts.indexOf("--algorithm") + 1,
-      opts.indexOf("--algorithm") + 2
-    )[0]
+      opts.indexOf("--alg") + 1,
+      opts.indexOf("--alg") + 2
+    )[0] 
     const encodingVal = opts.slice(opts.indexOf("--code") + 1, opts.indexOf("--code") + 2)[0]
 
     if (algorithmVal === "sha256") {

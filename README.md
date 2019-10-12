@@ -109,7 +109,7 @@ npm install -g enigma-hash
 & simply run with the following:
 
 ```sh
-enigma --algorithm sha256 --code hex --input <some string to hash>
+enigma --alg sha256 --code hex --data <some string to hash>
 ```
 
 ## Contribute

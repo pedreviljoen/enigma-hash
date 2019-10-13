@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/pedreviljoen/enigma-hash#readme",
   "devDependencies": {
-    "husky": "3.0.0",
+    "husky": "3.0.9",
     "jest": "23.6.0",
     "prettier": "^1.18.2"
   },

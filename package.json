@@ -1,6 +1,6 @@
 {
   "name": "enigma-hash",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Demystifying the hashing of data",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/pedreviljoen/enigma-hash#readme",
   "devDependencies": {
-    "husky": "3.0.9",
+    "husky": "4.0.9",
     "jest": "23.6.0",
     "prettier": "^1.18.2"
   },
